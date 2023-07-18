@@ -1,0 +1,10 @@
+{
+  "name": "single-price-grid-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Billal",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
