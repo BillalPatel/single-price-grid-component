@@ -10,15 +10,16 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
   <body class="bg-[#e5eff5] h-screen m-0 p-0 flex items-center">
     <div
-      class="container min-w-min max-w-sm rounded-md mx-auto grid grid-cols-1 lg:grid-cols-2 lg:max-w-2xl"
+      class="container mx-auto min-w-min max-w-sm rounded-md shadow-2xl grid grid-cols-1 lg:grid-cols-2 lg:max-w-3xl"
     >
-      <section class="bg-white rounded-t-md p-7 lg:col-span-2 lg:pr-20">
-        <h1 class="heading heading-community pb-4 text-2xl text-[#2ab2af]">
+      <section class="bg-white rounded-t-md p-7 lg:p-10 lg:col-span-2 lg:pr-20">
+        <h1
+          class="heading heading-community pb-4 text-2xl font-semibold text-[#2ab2af]"
+        >
           Join our community
         </h1>
         <h3 class="sub-heading mt-1 mb-4 text-lg text-[#c0df34]">
@@ -30,8 +31,8 @@
           skills.
         </p>
       </section>
-      <section class="bg-[#2ab2af] p-7 text-white">
-        <h1 class="heading text-2xl pb-5">Monthly Subscription</h1>
+      <section class="bg-[#2ab2af] p-7 lg:p-10 text-white lg:rounded-bl-md">
+        <h1 class="heading text-xl pb-5">Monthly Subscription</h1>
         <div>
           <div class="price-subheading flex mb-3">
             <p class="text-4xl mr-4 self-center">&dollar;29</p>
@@ -44,14 +45,16 @@
         <div class="btn-container flex justify-center">
           <button
             type="button"
-            class="sign-up-button rounded-md bg-[#c0df34] text-xl mt-8 mb-1 p-3 w-full"
+            class="sign-up-button hover:shadow-lg rounded-md bg-[#c0df34] text-lg mt-8 mb-1 p-3 w-full"
           >
             Sign Up
           </button>
         </div>
       </section>
-      <section class="bg-[#2ab2af] opacity-70 p-7 rounded-b-md">
-        <h1 class="heading pb-5 text-2xl text-white">Why Us</h1>
+      <section
+        class="bg-[#2ab2af] opacity-70 p-7 lg:p-10 rounded-b-md lg:rounded-none lg:rounded-br-md"
+      >
+        <h1 class="heading pb-5 text-xl text-white">Why Us</h1>
         <ul class="text-white opacity-70">
           <li class="">Tutorials by industry experts</li>
           <li class="">Peer &amp; expert code review</li>
