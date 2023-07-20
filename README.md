@@ -15,12 +15,12 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![GIF](./playback.gif)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/BillalPatel/single-price-grid-component)
+- Live Site URL: [Live site URL](https://64b92cc388e5737c9dac61a5--steady-semifreddo-b27476.netlify.app)
 
 ## My process
 
